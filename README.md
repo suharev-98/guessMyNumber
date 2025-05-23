@@ -17,4 +17,4 @@ A fun mini-game where you try to guess the secret number between 1 and 20.
 - JavaScript (DOM manipulation)
 
 ## 📺 Demo
-Try it live here 👉 [GitHub Pages link]
+Try it live here 👉 [Play!](https://suharev-98.github.io/guessMyNumber/)
