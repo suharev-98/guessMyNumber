@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+  font-family: orbitron;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #111;
+  color: #eee;
+  padding: 2rem;
+  text-align: center;
+  transition: background-color 1s ease;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #00f7ff;
+  text-shadow: 0 0 10px #08858a, 0 0 20px #0ff;
+  margin-bottom: 1rem;
+}
+
+.between {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+.number {
+  font-size: 6rem;
+  width: 15rem;
+  height: 15rem;
+  margin: 2rem auto;
+  border-radius: 50%;
+  background: #222;
+  color: #00f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 25px #00f7ff;
+  transition: width 0.3s;
+  transition: font-size 2s;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.left,
+.right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.guess {
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 80%;
+  max-width: 250px;
+  border: 2px solid #00f7ff;
+  border-radius: 10px;
+  background: #111;
+  color: #fff;
+  outline: none;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(135deg, #00f7ff, #0080ff);
+  box-shadow: 0 0 15px #00f7ff;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #00c3ff, #005aff);
+  transform: scale(1.05);
+}
+
+.message {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffd700;
+  text-shadow: 0 0 5px #ffd700;
+}
+
+.score,
+.highscore {
+  font-size: 1.5rem;
+  color: #0f0;
+}
