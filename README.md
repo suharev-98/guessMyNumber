@@ -6,7 +6,6 @@ A fun mini-game where you try to guess the secret number between 1 and 20.
 
 ## 🚀 Features
 - Real-time feedback (Too high/Too low/Correct!)
-- Animated typing effect
 - Score tracking and highscore memory
 - Neon cyberpunk design
 - Responsive layout
